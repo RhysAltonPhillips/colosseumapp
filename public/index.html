@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="We are launching soon! Stay tuned for the latest updates.">
+  <meta name="keywords" content="coming soon, launch, new app, exciting features">
+  <meta name="author" content="Your Company Name">
+
+  <title>Coming Soon</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="logo">Colosseum</div>
+        <nav>
+         
+          <ul class="nav-links">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#waitlist">Join Waitlist</a></li>
+          </ul>
+        </nav>
+        <button class="header-button" onclick="scrollToSection('waitlist')">Sign Up</button>
+    </header>
+    
+    <section id="hero">
+        <h1>Colosseum v1, Coming Soon!</h1>
+        <div class="countdown-container">
+          <h2>The AI Powered Betting App</h2>
+          <div id="countdown-clock">
+              <div class="time" id="days"></div>
+              <div class="time" id="hours"></div>
+              <div class="time" id="minutes"></div>
+              <div class="time" id="seconds"></div>
+          </div>
+      </div>
+        <p>Sign up for the waitlist to get notified for v1!</p>
+        <button class="header-button1" onclick="scrollToSection('waitlist')">Sign Up</button>
+    </section>
+    
+    <section id="countdown">
+      <h2>A New Way to Bet</h2>
+      <p>The AI powered betting application to take the casinos out the game. Bet against friends or the greater community
+        and remove the risk of a full loss to the bookie. By removing the third party element, it keeps the money recycled and 
+        reinvested back into future bets within the community, fostering an envirnment that is more about the social outcomes and 
+        competition of the games, rather than purely focused towards money. 
+      </p>
+    </section>
+
+    <section id="about">
+      
+        <div class="about-content">
+            <div>
+                <h2>No Fees</h2>
+                <p>No fees on transactions whether
+                  purchased, or bet. You should be able to bet with your friends without worrying 
+                  about extra fees. Your win, is your win and we take no part.
+                </p>
+            </div>
+            <div>
+                <h2>AI Functionality</h2>
+                <p>Introducing our AI assistant, built to provide transaction assistance, 
+                  bet facilitation, bracket creation, impartial league commissioner,
+                  payment collector, friend finder and many more. 
+                </p>
+            </div>
+            <div>
+                <h2>Be the Best!</h2>
+                <p>Social betting takes the stand here, with league tables, rewards, trash talk as well as location
+                  functionality to find and curate new friendships and community centered around the drive of competition.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="waitlist" class="buzz-animation">
+      <h2>Join Our Waitlist</h2>
+        <form class="launchlist-form" action="https://getlaunchlist.com/s/1ccL9h" method="POST">
+            <input name="name" type="text" placeholder="Your Name">
+            <input name="email" type="email" placeholder="Your Email">
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+          <div class="footer-logo">Colosseum</div>
+          <nav>
+              <ul class="footer-nav">
+                  <li><a href="#hero">Home</a></li>
+                  <li><a href="mailto:rhysap@gmail.com">Contact Us</a></li>
+                  <li><a href="#">Copyright 2024</a></li>
+              </ul>
+          </nav>
+      </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://getlaunchlist.com/js/widget-diy.js" defer></script>
+</body>
+</html>
